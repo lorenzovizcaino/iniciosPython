@@ -10,3 +10,4 @@ print("Tu índice de masa corporal es: "+str(imc.__round__(2)))
 
 
 #https://aprendeconalf.es/docencia/python/ejercicios/cadenas/
+#aqui
