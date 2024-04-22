@@ -13,6 +13,8 @@ class Persona:
         self.nombre=nombre
         if edad is not None and edad<0:
             self.edad=0
+        else:
+            self.edad=edad
 
         self.dni=dni
 
@@ -52,4 +54,4 @@ class Persona:
 
 p=Persona("Antonio",-5,"76912255C")
 p.mostrar()
-print(p.esMayorDeEdad())
+print("Mayor de edad: "+str(p.esMayorDeEdad()))
